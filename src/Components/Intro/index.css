@@ -1,0 +1,65 @@
+.circle-container {
+   
+    animation: slideInLeft 1s ease-out forwards;
+    opacity: 0;
+  }
+
+  .text-container {
+  
+    animation: slideInRight 1s ease-out forwards;
+    opacity: 0;
+  }
+
+  .headername{
+    animation : name 1.5s ease-out forwards;
+    opacity:1
+  }
+
+  @keyframes name {
+    0% {
+      transform: translateX(0%);
+      opacity: 0;
+    }
+    25%{
+        transform: translateX(0);
+        opacity: 0.10;
+
+    }
+    50%{
+        transform: translateX(0);
+        opacity: 0.30;
+
+    }
+    75%{
+        transform: translateX(0);
+        opacity: 0.50;
+
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

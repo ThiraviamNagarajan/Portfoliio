@@ -1,0 +1,17 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slick-slider {
+  margin-bottom: 0 !important;
+}
